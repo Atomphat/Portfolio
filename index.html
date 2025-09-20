@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="EN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n-key="title">Atom Portfolio</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home"><span class="logo"></span><span data-i18n-key="brand">Atomphat</span></a>
+      <nav id="menu" class="menu">
+        <a href="#home" data-i18n-key="nav_home">Home</a>
+        <a href="#about" data-i18n-key="nav_about">About</a>
+        <a href="#skills" data-i18n-key="nav_skills">Skills</a>
+        <a href="#projects" data-i18n-key="nav_projects">Projects</a>
+        <a href="#contact" data-i18n-key="nav_contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn ghost small" id="langToggle" aria-label="Toggle language">TH</button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home" class="hero container reveal">
+    <div class="hero-grid">
+      <section>
+        <span class="tag" data-i18n-key="hero_tag">🚀 Front-End • UI/UX</span>
+        <h1><span data-i18n-key="hero_hi">Hi, I’m</span> <span class="hl" data-i18n-key="hero_name">Phatthana Pomthong</span></h1>
+        <p class="lead" data-i18n-key="hero_lead">Computer Science @ Bangkok University. I craft clean, responsive UIs and love bringing Figma ideas to life with HTML, CSS, and JavaScript.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects" data-i18n-key="btn_see_projects">See Projects</a>
+          <a class="btn ghost" href="https://github.com/Atomphat" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+      <aside class="card hero-card float-up">
+        <!-- เปลี่ยนลิงก์รูปโปรไฟล์ได้เลย -->
+        <img class="avatar" src="https://i.ibb.co/LhHPjp1H/preview.jpg"alt="Your portrait" />
+        <img class="avatar" src="https://i.ibb.co/RTDt4KRY/IMG-1990.jpg" alt="Portrait 2" />
+        <img class="avatar" src="https://i.ibb.co/G3NTfB3d/IMG-4406.jpg" alt="Portrait 3" />
+        <img class="avatar" src="https://i.ibb.co/YBZGQCqM/IMG-9763.jpg" alt="Portrait 4" />
+      </aside>
+    </div>
+  </main>
+
+  <!-- ABOUT -->
+  <section id="about" class="section container reveal">
+    <h2 class="sec-title"><span class="bar"></span><span data-i18n-key="about_title">About Me</span></h2>
+    <div class="about-grid">
+      <div class="card">
+        <dl class="about">
+          <div><dt data-i18n-key="about_name">Name</dt><dd data-i18n-key="about_name_val">Phatthana Pomthong</dd></div>
+          <div><dt data-i18n-key="about_nick">Nickname</dt><dd data-i18n-key="about_nick_val">Atom</dd></div>
+          <div><dt data-i18n-key="about_age">Age</dt><dd data-i18n-key="about_age_val">22</dd></div>
+          <div><dt data-i18n-key="about_role">Role</dt><dd data-i18n-key="about_role_val">Developer</dd></div>
+          <div><dt data-i18n-key="about_gpa">GPA</dt><dd data-i18n-key="about_gpa_val">3.15</dd></div>
+          <div><dt data-i18n-key="about_edu">Education</dt><dd data-i18n-key="about_edu_val">Computer Science, Bangkok University</dd></div>
+          <div><dt data-i18n-key="about_loc">Location</dt><dd data-i18n-key="about_loc_val">Ayutthaya, Thailand</dd></div>
+        </dl>
+      </div>
+      <div class="card">
+        <h3 data-i18n-key="soft">Soft Skills</h3>
+        <ul class="list">
+          <li data-i18n-key="soft_1">Teamwork</li>
+          <li data-i18n-key="soft_2">Fast learner</li>
+          <li data-i18n-key="soft_3">On-the-spot problem solving</li>
+          <li data-i18n-key="soft_4">English communication</li>
+          <li data-i18n-key="soft_5">Resilient & punctual</li>
+        </ul>
+        <h3 data-i18n-key="hard">Hard Skills</h3>
+        <ul class="list">
+          <li data-i18n-key="hard_1">Python — strong</li>
+          <li data-i18n-key="hard_2">HTML — good</li>
+          <li data-i18n-key="hard_3">CSS / JavaScript — good</li>
+          <li data-i18n-key="hard_4">.NET MAUI — good</li>
+          <li data-i18n-key="hard_5">Git/GitHub, Figma</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- SKILLS -->
+  <section id="skills" class="section container reveal">
+  <h2 class="sec-title">
+    <span class="bar"></span>
+    <span data-i18n-key="skills_title">Skills</span>
+  </h2>
+
+  <div class="skills">
+    <div class="skill-bar">
+      <div class="label">
+        <span>HTML / CSS</span>
+        <span class="percent">0%</span>
+      </div>
+      <div class="bar"><div class="fill" data-percent="85"></div></div>
+    </div>
+
+    <div class="skill-bar">
+      <div class="label">
+        <span>JavaScript</span>
+        <span class="percent">0%</span>
+      </div>
+      <div class="bar"><div class="fill" data-percent="75"></div></div>
+    </div>
+
+    <div class="skill-bar">
+      <div class="label">
+        <span>Python</span>
+        <span class="percent">0%</span>
+      </div>
+      <div class="bar"><div class="fill" data-percent="90"></div></div>
+    </div>
+
+    <div class="skill-bar">
+      <div class="label">
+        <span>.NET MAUI</span>
+        <span class="percent">0%</span>
+      </div>
+      <div class="bar"><div class="fill" data-percent="70"></div></div>
+    </div>
+
+    <div class="skill-bar">
+      <div class="label">
+        <span>English Communication</span>
+        <span class="percent">0%</span>
+      </div>
+      <div class="bar"><div class="fill" data-percent="80"></div></div>
+    </div>
+  </div>
+</section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section container reveal">
+    <h2 class="sec-title"><span class="bar"></span><span data-i18n-key="proj_title">Projects</span></h2>
+    <div class="grid">
+      <article class="card project hover-pop" data-project="p1">
+        <div class="thumb">
+          <!-- เปลี่ยนลิงก์สกรีนช็อตโปรเจกต์ได้เลย -->
+          <img src="https://i.ibb.co/Pzgqg17Y/Screenshot-20250518-184026.png" alt="Screenshot-20250518-184026"/>
+        </div>
+        <div class="project-body">
+          <div class="chip" data-i18n-key="chip_web">Application</div>
+          <h3>Random Food App</h3>
+          <p data-i18n-key="p1_desc">Playful UI that suggests meals with smooth transitions and keyboard shortcuts.</p>
+          <div class="links">
+            <button class="btn small" data-readmore="p1" data-i18n-key="read_more">Read more</button>
+            <a class="btn ghost small" href="#" aria-disabled="true">Live</a>
+            <a class="btn ghost small" href="#" aria-disabled="true">Code</a>
+          </div>
+        </div>
+      </article>
+      <article class="card project hover-pop" data-project="p2">
+        <div class="thumb">
+          <img src="https://i.ibb.co/x8LbFYyH/Screenshot-2568-09-20-at-16-04-32.png" alt="E-commerce Prototype screenshot"/>
+        </div>
+        <div class="project-body">
+          <div class="chip" data-i18n-key="chip_ui">UI</div>
+          <h3>E-commerce Prototype</h3>
+          <p data-i18n-key="p2_desc">A car e-commerce prototype built with HTML, CSS, and JavaScript, demonstrating front-end programming and interactive features.</p>
+          <div class="links">
+            <button class="btn small" data-readmore="p2" data-i18n-key="read_more">Read more</button>
+            <a class="btn ghost small" href="#" aria-disabled="true">Case</a>
+            <a class="btn ghost small" href="#" aria-disabled="true">Figma</a>
+          </div>
+        </div>
+      </article>
+      <article class="card project hover-pop" data-project="p3">
+        <div class="thumb">
+          <img src="https://i.ibb.co/nshC9Hdd/Screenshot-2568-09-20-at-16-09-11.png" alt="A* Pathfinding Demo screenshot"/>
+        </div>
+        <div class="project-body">
+          <div class="chip" data-i18n-key="chip_algo">Chatbot</div>
+          <h3>Develop Chatbot</h3>
+          <p data-i18n-key="p3_desc">Developed a prototype chatbot using Python and the Typhoon 2.1 (Gemma) model with voice input/output. The system allows Thai Social Security members to ask questions about their rights and benefits, then receive natural language answers. This project highlights skills in AI integration, NLP, and conversational interface development.</p>
+          <div class="links">
+            <button class="btn small" data-readmore="p3" data-i18n-key="read_more">Read more</button>
+            <a class="btn ghost small" href="#" aria-disabled="true">Live</a>
+            <a class="btn ghost small" href="#" aria-disabled="true">Code</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+    <section id="certificates" class="section container reveal">
+        <h2 class="sec-title">
+            <span class="bar"></span>
+            <span data-i18n-key="cert_title">Certificates</span>
+        </h2>
+
+        <div class="cert-grid">
+
+    <!-- Certificate 1 -->
+        <div class="cert-card">
+            <a href="https://ibb.co/GvSMtKK8" target="_blank">
+                
+                <img src="https://i.ibb.co/JRDzbC34/Screenshot-2568-07-09-at-13-34-22.png"  
+                alt="Python Chatbot Certificate" class="cert-img"/>
+            </a>
+            <h3 data-i18n-key="cert_chatbot_title">Python Chatbot Development</h3>
+            <p data-i18n-key="cert_chatbot_desc">
+                ใบรับรองการใช้ Python เพื่อสร้างแชทบอท
+            </p>
+        </div>
+
+    <!-- Certificate 2 -->
+        <div class="cert-card">
+            <a href="https://ibb.co/xSxMc3F0" target="_blank">
+                <img src="https://i.ibb.co/rGrpcCCz/Screenshot-2568-07-09-at-13-34-41.png"
+                alt="Cybersecurity Basics Certificate" class="cert-img"/>
+            </a>
+            <h3 data-i18n-key="cert_cyber_title">Cybersecurity Basics</h3>
+            <p data-i18n-key="cert_cyber_desc">
+                ใบรับรองพื้นฐานด้าน Cybersecurity
+            </p>
+        </div>
+
+  </div>
+</section>
+
+
+    
+
+  <!-- CONTACT -->
+    <section id="contact" class="section container reveal">
+        <h2 class="sec-title">
+            <span class="bar"></span>
+            <span data-i18n-key="contact_title">Contact</span>
+        </h2>
+
+        <div class="contact-card card">
+            <ul>
+                <li><strong>Phone:</strong> <a href="tel:+66655858999">+66 65-585-8999</a></li>
+                <li><strong>Line ID:</strong> <a>atom9.work</a></li>
+                <li><strong>Email:</strong> <a href="mailto:phatthana718@gmail.com">phatthana718@gmail.com</a></li>
+                <li><strong>LinkedIn:</strong><a href="https://www.linkedin.com/in/phatthana-pomthong-599b05247/" target="_blank" rel="noreferrer">linkedin/phatthana</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/Atomphat" target="_blank" rel="noreferrer">github.com/Atomphat</a></li>
+                <li><strong>Location:</strong> Ayutthaya, Thailand</li>
+                
+                
+        </div>
+    </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> <span data-i18n-key="footer_name">Atomphat</span>. <span data-i18n-key="footer_built">Built with ♥.</span></p>
+    </div>
+  </footer>
+
+  <!-- Project modal -->
+  <dialog id="projectModal" class="modal">
+    <article class="card modal-content">
+      <button id="modalClose" class="btn ghost small close" aria-label="Close">✕</button>
+      <img id="modalImg" alt="Project image" />
+      <h3 id="modalTitle">Title</h3>
+      <p id="modalDesc">Description…</p>
+      <div class="links" id="modalLinks"></div>
+    </article>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
